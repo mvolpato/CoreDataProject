@@ -13,23 +13,29 @@
 		5BAC8D3425B2F46B006EB81D /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D1D25B2F468006EB81D /* CoreDataProjectApp.swift */; };
 		5BAC8D3525B2F46B006EB81D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D1E25B2F468006EB81D /* ContentView.swift */; };
 		5BAC8D3625B2F46B006EB81D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D1E25B2F468006EB81D /* ContentView.swift */; };
-		5BAC8D3725B2F46B006EB81D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D1F25B2F468006EB81D /* Persistence.swift */; };
-		5BAC8D3825B2F46B006EB81D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D1F25B2F468006EB81D /* Persistence.swift */; };
 		5BAC8D3925B2F46B006EB81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAC8D2025B2F46B006EB81D /* Assets.xcassets */; };
 		5BAC8D3A25B2F46B006EB81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAC8D2025B2F46B006EB81D /* Assets.xcassets */; };
+		5BAC8D4725B2F823006EB81D /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D4525B2F823006EB81D /* Movie+CoreDataClass.swift */; };
+		5BAC8D4825B2F823006EB81D /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D4525B2F823006EB81D /* Movie+CoreDataClass.swift */; };
+		5BAC8D4925B2F823006EB81D /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D4625B2F823006EB81D /* Movie+CoreDataProperties.swift */; };
+		5BAC8D4A25B2F823006EB81D /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D4625B2F823006EB81D /* Movie+CoreDataProperties.swift */; };
+		5BAC8D5025B2FAE3006EB81D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D4F25B2FAE3006EB81D /* Persistence.swift */; };
+		5BAC8D5125B2FAE3006EB81D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC8D4F25B2FAE3006EB81D /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BAC8D1C25B2F468006EB81D /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		5BAC8D1D25B2F468006EB81D /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		5BAC8D1E25B2F468006EB81D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5BAC8D1F25B2F468006EB81D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5BAC8D2025B2F46B006EB81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BAC8D2525B2F46B006EB81D /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAC8D2825B2F46B006EB81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAC8D2D25B2F46B006EB81D /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAC8D2F25B2F46B006EB81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAC8D3025B2F46B006EB81D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5BAC8D4525B2F823006EB81D /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5BAC8D4625B2F823006EB81D /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5BAC8D4F25B2FAE3006EB81D /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +69,11 @@
 		5BAC8D1A25B2F468006EB81D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5BAC8D4525B2F823006EB81D /* Movie+CoreDataClass.swift */,
+				5BAC8D4625B2F823006EB81D /* Movie+CoreDataProperties.swift */,
 				5BAC8D1D25B2F468006EB81D /* CoreDataProjectApp.swift */,
+				5BAC8D4F25B2FAE3006EB81D /* Persistence.swift */,
 				5BAC8D1E25B2F468006EB81D /* ContentView.swift */,
-				5BAC8D1F25B2F468006EB81D /* Persistence.swift */,
 				5BAC8D2025B2F46B006EB81D /* Assets.xcassets */,
 				5BAC8D1B25B2F468006EB81D /* CoreDataProject.xcdatamodeld */,
 			);
@@ -196,8 +204,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BAC8D3325B2F46B006EB81D /* CoreDataProjectApp.swift in Sources */,
-				5BAC8D3725B2F46B006EB81D /* Persistence.swift in Sources */,
 				5BAC8D3125B2F46B006EB81D /* CoreDataProject.xcdatamodeld in Sources */,
+				5BAC8D4725B2F823006EB81D /* Movie+CoreDataClass.swift in Sources */,
+				5BAC8D5025B2FAE3006EB81D /* Persistence.swift in Sources */,
+				5BAC8D4925B2F823006EB81D /* Movie+CoreDataProperties.swift in Sources */,
 				5BAC8D3525B2F46B006EB81D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,8 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BAC8D3425B2F46B006EB81D /* CoreDataProjectApp.swift in Sources */,
-				5BAC8D3825B2F46B006EB81D /* Persistence.swift in Sources */,
 				5BAC8D3225B2F46B006EB81D /* CoreDataProject.xcdatamodeld in Sources */,
+				5BAC8D4825B2F823006EB81D /* Movie+CoreDataClass.swift in Sources */,
+				5BAC8D5125B2FAE3006EB81D /* Persistence.swift in Sources */,
+				5BAC8D4A25B2F823006EB81D /* Movie+CoreDataProperties.swift in Sources */,
 				5BAC8D3625B2F46B006EB81D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

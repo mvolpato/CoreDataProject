@@ -5,11 +5,16 @@
 //  
 //
 
+import CoreData
 import SwiftUI
 
 @main
 struct CoreDataProjectApp: App {
     let persistenceController = PersistenceController.shared
+    
+    init() {
+        persistenceController.container.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
+    }
 
     var body: some Scene {
         WindowGroup {
