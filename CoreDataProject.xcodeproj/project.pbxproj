@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B58802F25B7737B00D81050 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58802E25B7737B00D81050 /* Predicate.swift */; };
+		5B58803025B7737B00D81050 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58802E25B7737B00D81050 /* Predicate.swift */; };
 		5B7CB9C625B4C60800B4C41E /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CB9C425B4C60800B4C41E /* Singer+CoreDataClass.swift */; };
 		5B7CB9C725B4C60800B4C41E /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CB9C425B4C60800B4C41E /* Singer+CoreDataClass.swift */; };
 		5B7CB9C825B4C60800B4C41E /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CB9C525B4C60800B4C41E /* Singer+CoreDataProperties.swift */; };
@@ -38,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B58802E25B7737B00D81050 /* Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
 		5B7CB9C425B4C60800B4C41E /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		5B7CB9C525B4C60800B4C41E /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		5B7CB9CC25B4C68800B4C41E /* FilterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterList.swift; sourceTree = "<group>"; };
@@ -104,6 +107,7 @@
 				5BAC8D2025B2F46B006EB81D /* Assets.xcassets */,
 				5BAC8D1B25B2F468006EB81D /* CoreDataProject.xcdatamodeld */,
 				5B7CB9CC25B4C68800B4C41E /* FilterList.swift */,
+				5B58802E25B7737B00D81050 /* Predicate.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -240,6 +244,7 @@
 				5BAC8D3125B2F46B006EB81D /* CoreDataProject.xcdatamodeld in Sources */,
 				5BAC8D4725B2F823006EB81D /* Movie+CoreDataClass.swift in Sources */,
 				5BAC8D5025B2FAE3006EB81D /* Persistence.swift in Sources */,
+				5B58802F25B7737B00D81050 /* Predicate.swift in Sources */,
 				5B7CB9CD25B4C68800B4C41E /* FilterList.swift in Sources */,
 				5B7CB9C825B4C60800B4C41E /* Singer+CoreDataProperties.swift in Sources */,
 				5BAC8D4925B2F823006EB81D /* Movie+CoreDataProperties.swift in Sources */,
@@ -260,6 +265,7 @@
 				5BAC8D3225B2F46B006EB81D /* CoreDataProject.xcdatamodeld in Sources */,
 				5BAC8D4825B2F823006EB81D /* Movie+CoreDataClass.swift in Sources */,
 				5BAC8D5125B2FAE3006EB81D /* Persistence.swift in Sources */,
+				5B58803025B7737B00D81050 /* Predicate.swift in Sources */,
 				5B7CB9CE25B4C68800B4C41E /* FilterList.swift in Sources */,
 				5B7CB9C925B4C60800B4C41E /* Singer+CoreDataProperties.swift in Sources */,
 				5BAC8D4A25B2F823006EB81D /* Movie+CoreDataProperties.swift in Sources */,
